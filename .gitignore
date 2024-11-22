@@ -7,6 +7,8 @@
 # Ignore build output directories for frontend and backend
 /chatFrontend/dist
 /chatFrontend/node_modules
+/chatbackend/node_modules
+
 
 # Ignore logs and temporary files
 *.log
