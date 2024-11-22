@@ -1,0 +1,9 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  /* Set a specific height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-width: thin; /* Optional: styles for Firefox */
+}
+
+/* For WebKit browsers (Chrome, Safari, etc.) */
