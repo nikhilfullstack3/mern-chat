@@ -1,18 +1,10 @@
-# Ignore node_modules
-/node_modules
+# Ignore node_modules in the backend
+/chatBackend/node_modules
 
-# Ignore environment variables
-/.env
-
-# Ignore build output directories for frontend and backend
-/chatFrontend/dist
+# Ignore node_modules in the frontend
 /chatFrontend/node_modules
-/chatbackend/node_modules
-/chatbackend/.env
 
+# Ignore .env file in the backend
+/chatBackend/.env
 
-# Ignore logs and temporary files
-*.log
-*.swp
-*.DS_Store
-git commit -m "Your commit message"
+/chatFrontend/dist
